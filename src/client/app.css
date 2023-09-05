@@ -1,0 +1,20 @@
+body {
+  margin: auto;
+}
+
+body, html { 
+  font-family: 'Open Sans';
+}
+
+
+/* .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding: 8px !important;
+} */
+
+.MuiAccordion-root {
+	background: transparent !important;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+    margin: 0 !important;
+}

@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #000133;
+  }
+  
+  .header {
+    background: #FFFFFF;
+    height: 50px;
+  }
+  .header .companyname {
+    position: absolute;
+    left: 1.41%;
+    right: 87.14%;
+    top: 2.08%;
+    bottom: 95.47%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E2F65;
+}
+
+ .header .financial-year-label {
+    position: absolute;
+    left: 20%;
+    top: 2.5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+ }
+ .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+  }
+
+  .header .logged-in-user {
+    position: absolute;
+    left: 90%;
+    top: 2%;
+    color: #060172;
+   
+
+  }
+
+  .user-icon {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+  }
+  .username {
+    display:inline-block;
+    top: 2%;
+    margin-left: 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .leftMenuBar {
+    width: 240px;
+  }
+  
+  .main {
+    flex: 1;
+    background: #f7f5f5;
+    border-top: 1px solid #BCBCBC;
+  }

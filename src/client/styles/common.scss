@@ -1,0 +1,57 @@
+@import './mixins.scss';
+@import './variable.scss';
+
+* {
+	font-family: 'Open Sans'
+}
+
+.fg-white {
+	color: $colorWhite;
+}
+
+.bg-white {
+	background-color: $colorWhite;
+}
+
+.bg-transparent {
+	background-color: transparent,
+}
+
+.text-green {
+	color: $colorGreen  !important;
+}
+
+.text-dark-blue {
+	color: $colorDarkBlue  !important;
+}
+
+.text-red {
+	color: $colorRed  !important;
+}
+
+.text-primary-blue {
+	color: $colorPrimary  !important;
+}
+
+.text-grey {
+	color: $colorGrey  !important;
+	text-decoration-color: $colorGrey  !important;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.display-none {
+	display: none !important;
+}
+
+

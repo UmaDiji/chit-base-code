@@ -1,0 +1,138 @@
+@mixin align-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin vertical-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin flex-end-center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+@mixin space-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@mixin flex-start {
+	justify-content: flex-start;
+}
+
+@mixin flex-end {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+@mixin flex-column-space-around {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+@mixin flex-row-start {
+	display: flex;
+	flex-direction: row;
+}
+
+@mixin svg-checkbox {
+	fill: rgba(0, 0, 0, 0.2);
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+}
+
+@mixin custom-input-styles {
+	width: 100%;
+	height: 34px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #212121;
+}
+
+@mixin display-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin display-row {
+	display: flex;
+	flex-direction: row;
+}
+
+@mixin align-vertical-center-row-content {
+	display: flex;
+	align-items: center;
+}
+
+@mixin padding-margin-zero {
+	padding: 0;
+	margin: 0;
+}
+
+@mixin padding-zero {
+	padding: 0;
+}
+
+@mixin align-row-end {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+@mixin align-column-end {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+@mixin align-column-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@mixin label {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #6a6a85;
+}
+
+@mixin align-row-wise {
+	width: 100%;
+	display: flex;
+}
+
+@mixin space-evenly-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+@mixin space-evenly-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+@mixin input-box-shadow {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 7px;
+}
